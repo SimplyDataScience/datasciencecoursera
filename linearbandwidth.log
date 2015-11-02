@@ -1,0 +1,156 @@
+*** Creating network
+*** Adding controller
+*** Adding hosts:
+h1 h2 h3 h4 h5 h6 h7 h8 h9 h10 h11 h12 h13 h14 h15 h16 h17 h18 h19 h20 h21 h22 h23 h24 h25 h26 h27 h28 h29 h30 h31 h32 h33 h34 h35 h36 h37 h38 h39 h40 h41 h42 h43 h44 h45 h46 h47 h48 h49 h50 h51 h52 h53 h54 h55 h56 h57 h58 h59 h60 h61 h62 h63 h64 h65 h66 h67 h68 h69 h70 h71 h72 h73 h74 h75 h76 h77 h78 h79 h80 h81 h82 h83 h84 h85 h86 h87 h88 h89 h90 h91 h92 h93 h94 h95 h96 h97 h98 h99 h100 h101 
+*** Adding switches:
+s1 s2 s3 s4 s5 s6 s7 s8 s9 s10 s11 s12 s13 s14 s15 s16 s17 s18 s19 s20 s21 s22 s23 s24 s25 s26 s27 s28 s29 s30 s31 s32 s33 s34 s35 s36 s37 s38 s39 s40 s41 s42 s43 s44 s45 s46 s47 s48 s49 s50 s51 s52 s53 s54 s55 s56 s57 s58 s59 s60 s61 s62 s63 s64 s65 s66 s67 s68 s69 s70 s71 s72 s73 s74 s75 s76 s77 s78 s79 s80 s81 s82 s83 s84 s85 s86 s87 s88 s89 s90 s91 s92 s93 s94 s95 s96 s97 s98 s99 s100 
+*** Adding links:
+(h1, s1) (h2, s1) (h3, s2) (h4, s3) (h5, s4) (h6, s5) (h7, s6) (h8, s7) (h9, s8) (h10, s9) (h11, s10) (h12, s11) (h13, s12) (h14, s13) (h15, s14) (h16, s15) (h17, s16) (h18, s17) (h19, s18) (h20, s19) (h21, s20) (h22, s21) (h23, s22) (h24, s23) (h25, s24) (h26, s25) (h27, s26) (h28, s27) (h29, s28) (h30, s29) (h31, s30) (h32, s31) (h33, s32) (h34, s33) (h35, s34) (h36, s35) (h37, s36) (h38, s37) (h39, s38) (h40, s39) (h41, s40) (h42, s41) (h43, s42) (h44, s43) (h45, s44) (h46, s45) (h47, s46) (h48, s47) (h49, s48) (h50, s49) (h51, s50) (h52, s51) (h53, s52) (h54, s53) (h55, s54) (h56, s55) (h57, s56) (h58, s57) (h59, s58) (h60, s59) (h61, s60) (h62, s61) (h63, s62) (h64, s63) (h65, s64) (h66, s65) (h67, s66) (h68, s67) (h69, s68) (h70, s69) (h71, s70) (h72, s71) (h73, s72) (h74, s73) (h75, s74) (h76, s75) (h77, s76) (h78, s77) (h79, s78) (h80, s79) (h81, s80) (h82, s81) (h83, s82) (h84, s83) (h85, s84) (h86, s85) (h87, s86) (h88, s87) (h89, s88) (h90, s89) (h91, s90) (h92, s91) (h93, s92) (h94, s93) (h95, s94) (h96, s95) (h97, s96) (h98, s97) (h99, s98) (h100, s99) (h101, s100) (s1, s2) (s2, s3) (s3, s4) (s4, s5) (s5, s6) (s6, s7) (s7, s8) (s8, s9) (s9, s10) (s10, s11) (s11, s12) (s12, s13) (s13, s14) (s14, s15) (s15, s16) (s16, s17) (s17, s18) (s18, s19) (s19, s20) (s20, s21) (s21, s22) (s22, s23) (s23, s24) (s24, s25) (s25, s26) (s26, s27) (s27, s28) (s28, s29) (s29, s30) (s30, s31) (s31, s32) (s32, s33) (s33, s34) (s34, s35) (s35, s36) (s36, s37) (s37, s38) (s38, s39) (s39, s40) (s40, s41) (s41, s42) (s42, s43) (s43, s44) (s44, s45) (s45, s46) (s46, s47) (s47, s48) (s48, s49) (s49, s50) (s50, s51) (s51, s52) (s52, s53) (s53, s54) (s54, s55) (s55, s56) (s56, s57) (s57, s58) (s58, s59) (s59, s60) (s60, s61) (s61, s62) (s62, s63) (s63, s64) (s64, s65) (s65, s66) (s66, s67) (s67, s68) (s68, s69) (s69, s70) (s70, s71) (s71, s72) (s72, s73) (s73, s74) (s74, s75) (s75, s76) (s76, s77) (s77, s78) (s78, s79) (s79, s80) (s80, s81) (s81, s82) (s82, s83) (s83, s84) (s84, s85) (s85, s86) (s86, s87) (s87, s88) (s88, s89) (s89, s90) (s90, s91) (s91, s92) (s92, s93) (s93, s94) (s94, s95) (s95, s96) (s96, s97) (s97, s98) (s98, s99) (s99, s100) 
+*** Configuring hosts
+h1 h2 h3 h4 h5 h6 h7 h8 h9 h10 h11 h12 h13 h14 h15 h16 h17 h18 h19 h20 h21 h22 h23 h24 h25 h26 h27 h28 h29 h30 h31 h32 h33 h34 h35 h36 h37 h38 h39 h40 h41 h42 h43 h44 h45 h46 h47 h48 h49 h50 h51 h52 h53 h54 h55 h56 h57 h58 h59 h60 h61 h62 h63 h64 h65 h66 h67 h68 h69 h70 h71 h72 h73 h74 h75 h76 h77 h78 h79 h80 h81 h82 h83 h84 h85 h86 h87 h88 h89 h90 h91 h92 h93 h94 h95 h96 h97 h98 h99 h100 h101 
+*** Starting controller
+*** Starting 100 switches
+s1 s2 s3 s4 s5 s6 s7 s8 s9 s10 s11 s12 s13 s14 s15 s16 s17 s18 s19 s20 s21 s22 s23 s24 s25 s26 s27 s28 s29 s30 s31 s32 s33 s34 s35 s36 s37 s38 s39 s40 s41 s42 s43 s44 s45 s46 s47 s48 s49 s50 s51 s52 s53 s54 s55 s56 s57 s58 s59 s60 s61 s62 s63 s64 s65 s66 s67 s68 s69 s70 s71 s72 s73 s74 s75 s76 s77 s78 s79 s80 s81 s82 s83 s84 s85 s86 s87 s88 s89 s90 s91 s92 s93 s94 s95 s96 s97 s98 s99 s100 
+h1 -> h2 
+h2 -> h1 
+*** Results: 0% dropped (2/2 received)
+h1 -> h11 
+h11 -> h1 
+*** Results: 0% dropped (2/2 received)
+h1 -> h21 
+h21 -> h1 
+*** Results: 0% dropped (2/2 received)
+h1 -> h41 
+h41 -> h1 
+*** Results: 0% dropped (2/2 received)
+h1 -> h61 
+h61 -> h1 
+*** Results: 0% dropped (2/2 received)
+h1 -> h81 
+h81 -> h1 
+*** Results: 0% dropped (2/2 received)
+h1 -> h101 
+h101 -> h1 
+*** Results: 0% dropped (2/2 received)
+*** Iperf: testing TCP bandwidth between h1 and h2
+*** Results: ['1.35 Mbits/sec', '1.44 Mbits/sec']
+*** Running linearBandwidthTest [1, 10, 20, 40, 60, 80, 100]
+*** testing reference user datapath
+*** testing basic connectivity
+*** testing bandwidth
+testing h1 <-> h2 ['1.35 Mbits/sec', '1.44 Mbits/sec']
+*** Iperf: testing TCP bandwidth between h1 and h11
+*** Results: ['1.08 Mbits/sec', '1.15 Mbits/sec']
+testing h1 <-> h11 ['1.08 Mbits/sec', '1.15 Mbits/sec']
+*** Iperf: testing TCP bandwidth between h1 and h21
+*** Results: ['395 Kbits/sec', '419 Kbits/sec']
+testing h1 <-> h21 ['395 Kbits/sec', '419 Kbits/sec']
+*** Iperf: testing TCP bandwidth between h1 and h41
+*** Results: ['367 Kbits/sec', '369 Kbits/sec']
+testing h1 <-> h41 ['367 Kbits/sec', '369 Kbits/sec']
+*** Iperf: testing TCP bandwidth between h1 and h61
+*** Results: ['347 Kbits/sec', '352 Kbits/sec']
+testing h1 <-> h61 ['347 Kbits/sec', '352 Kbits/sec']
+*** Iperf: testing TCP bandwidth between h1 and h81
+*** Results: ['328 Kbits/sec', '334 Kbits/sec']
+testing h1 <-> h81 ['328 Kbits/sec', '334 Kbits/sec']
+*** Iperf: testing TCP bandwidth between h1 and h101
+*** Results: ['309 Kbits/sec', '316 Kbits/sec']
+testing h1 <-> h101 ['309 Kbits/sec', '316 Kbits/sec']
+*** Stopping 100 switches
+s1 ...s2 ...s3 ...s4 ...s5 ...s6 ...s7 ...s8 ...s9 ...s10 ...s11 ...s12 ...s13 ...s14 ...s15 ...s16 ...s17 ...s18 ...s19 ...s20 ...s21 ...s22 ...s23 ...s24 ...s25 ...s26 ...s27 ...s28 ...s29 ...s30 ...s31 ...s32 ...s33 ...s34 ...s35 ...s36 ...s37 ...s38 ...s39 ...s40 ...s41 ...s42 ...s43 ...s44 ...s45 ...s46 ...s47 ...s48 ...s49 ...s50 ...s51 ...s52 ...s53 ...s54 ...s55 ...s56 ...s57 ...s58 ...s59 ...s60 ...s61 ...s62 ...s63 ...s64 ...s65 ...s66 ...s67 ...s68 ...s69 ...s70 ...s71 ...s72 ...s73 ...s74 ...s75 ...s76 ...s77 ...s78 ...s79 ...s80 ...s81 ...s82 ...s83 ...s84 ...s85 ...s86 ...s87 ...s88 ...s89 ...s90 ...s91 ...s92 ...s93 ...s94 ...s95 ...s96 ...s97 ...s98 ...s99 ...s100 ..
+*** Stopping 101 hosts
+h1 h2 h3 h4 h5 h6 h7 h8 h9 h10 h11 h12 h13 h14 h15 h16 h17 h18 h19 h20 h21 h22 h23 h24 h25 h26 h27 h28 h29 h30 h31 h32 h33 h34 h35 h36 h37 h38 h39 h40 h41 h42 h43 h44 h45 h46 h47 h48 h49 h50 h51 h52 h53 h54 h55 h56 h57 h58 h59 h60 h61 h62 h63 h64 h65 h66 h67 h68 h69 h70 h71 h72 h73 h74 h75 h76 h77 h78 h79 h80 h81 h82 h83 h84 h85 h86 h87 h88 h89 h90 h91 h92 h93 h94 h95 h96 h97 h98 h99 h100 h101 
+*** Stopping 1 controllers
+c0 
+*** Done
+*** Creating network
+*** Adding controller
+*** Adding hosts:
+h1 h2 h3 h4 h5 h6 h7 h8 h9 h10 h11 h12 h13 h14 h15 h16 h17 h18 h19 h20 h21 h22 h23 h24 h25 h26 h27 h28 h29 h30 h31 h32 h33 h34 h35 h36 h37 h38 h39 h40 h41 h42 h43 h44 h45 h46 h47 h48 h49 h50 h51 h52 h53 h54 h55 h56 h57 h58 h59 h60 h61 h62 h63 h64 h65 h66 h67 h68 h69 h70 h71 h72 h73 h74 h75 h76 h77 h78 h79 h80 h81 h82 h83 h84 h85 h86 h87 h88 h89 h90 h91 h92 h93 h94 h95 h96 h97 h98 h99 h100 h101 
+*** Adding switches:
+s1 s2 s3 s4 s5 s6 s7 s8 s9 s10 s11 s12 s13 s14 s15 s16 s17 s18 s19 s20 s21 s22 s23 s24 s25 s26 s27 s28 s29 s30 s31 s32 s33 s34 s35 s36 s37 s38 s39 s40 s41 s42 s43 s44 s45 s46 s47 s48 s49 s50 s51 s52 s53 s54 s55 s56 s57 s58 s59 s60 s61 s62 s63 s64 s65 s66 s67 s68 s69 s70 s71 s72 s73 s74 s75 s76 s77 s78 s79 s80 s81 s82 s83 s84 s85 s86 s87 s88 s89 s90 s91 s92 s93 s94 s95 s96 s97 s98 s99 s100 
+*** Adding links:
+(h1, s1) (h2, s1) (h3, s2) (h4, s3) (h5, s4) (h6, s5) (h7, s6) (h8, s7) (h9, s8) (h10, s9) (h11, s10) (h12, s11) (h13, s12) (h14, s13) (h15, s14) (h16, s15) (h17, s16) (h18, s17) (h19, s18) (h20, s19) (h21, s20) (h22, s21) (h23, s22) (h24, s23) (h25, s24) (h26, s25) (h27, s26) (h28, s27) (h29, s28) (h30, s29) (h31, s30) (h32, s31) (h33, s32) (h34, s33) (h35, s34) (h36, s35) (h37, s36) (h38, s37) (h39, s38) (h40, s39) (h41, s40) (h42, s41) (h43, s42) (h44, s43) (h45, s44) (h46, s45) (h47, s46) (h48, s47) (h49, s48) (h50, s49) (h51, s50) (h52, s51) (h53, s52) (h54, s53) (h55, s54) (h56, s55) (h57, s56) (h58, s57) (h59, s58) (h60, s59) (h61, s60) (h62, s61) (h63, s62) (h64, s63) (h65, s64) (h66, s65) (h67, s66) (h68, s67) (h69, s68) (h70, s69) (h71, s70) (h72, s71) (h73, s72) (h74, s73) (h75, s74) (h76, s75) (h77, s76) (h78, s77) (h79, s78) (h80, s79) (h81, s80) (h82, s81) (h83, s82) (h84, s83) (h85, s84) (h86, s85) (h87, s86) (h88, s87) (h89, s88) (h90, s89) (h91, s90) (h92, s91) (h93, s92) (h94, s93) (h95, s94) (h96, s95) (h97, s96) (h98, s97) (h99, s98) (h100, s99) (h101, s100) (s1, s2) (s2, s3) (s3, s4) (s4, s5) (s5, s6) (s6, s7) (s7, s8) (s8, s9) (s9, s10) (s10, s11) (s11, s12) (s12, s13) (s13, s14) (s14, s15) (s15, s16) (s16, s17) (s17, s18) (s18, s19) (s19, s20) (s20, s21) (s21, s22) (s22, s23) (s23, s24) (s24, s25) (s25, s26) (s26, s27) (s27, s28) (s28, s29) (s29, s30) (s30, s31) (s31, s32) (s32, s33) (s33, s34) (s34, s35) (s35, s36) (s36, s37) (s37, s38) (s38, s39) (s39, s40) (s40, s41) (s41, s42) (s42, s43) (s43, s44) (s44, s45) (s45, s46) (s46, s47) (s47, s48) (s48, s49) (s49, s50) (s50, s51) (s51, s52) (s52, s53) (s53, s54) (s54, s55) (s55, s56) (s56, s57) (s57, s58) (s58, s59) (s59, s60) (s60, s61) (s61, s62) (s62, s63) (s63, s64) (s64, s65) (s65, s66) (s66, s67) (s67, s68) (s68, s69) (s69, s70) (s70, s71) (s71, s72) (s72, s73) (s73, s74) (s74, s75) (s75, s76) (s76, s77) (s77, s78) (s78, s79) (s79, s80) (s80, s81) (s81, s82) (s82, s83) (s83, s84) (s84, s85) (s85, s86) (s86, s87) (s87, s88) (s88, s89) (s89, s90) (s90, s91) (s91, s92) (s92, s93) (s93, s94) (s94, s95) (s95, s96) (s96, s97) (s97, s98) (s98, s99) (s99, s100) 
+*** Configuring hosts
+h1 h2 h3 h4 h5 h6 h7 h8 h9 h10 h11 h12 h13 h14 h15 h16 h17 h18 h19 h20 h21 h22 h23 h24 h25 h26 h27 h28 h29 h30 h31 h32 h33 h34 h35 h36 h37 h38 h39 h40 h41 h42 h43 h44 h45 h46 h47 h48 h49 h50 h51 h52 h53 h54 h55 h56 h57 h58 h59 h60 h61 h62 h63 h64 h65 h66 h67 h68 h69 h70 h71 h72 h73 h74 h75 h76 h77 h78 h79 h80 h81 h82 h83 h84 h85 h86 h87 h88 h89 h90 h91 h92 h93 h94 h95 h96 h97 h98 h99 h100 h101 
+*** Starting controller
+*** Starting 100 switches
+s1 s2 s3 s4 s5 s6 s7 s8 s9 s10 s11 s12 s13 s14 s15 s16 s17 s18 s19 s20 s21 s22 s23 s24 s25 s26 s27 s28 s29 s30 s31 s32 s33 s34 s35 s36 s37 s38 s39 s40 s41 s42 s43 s44 s45 s46 s47 s48 s49 s50 s51 s52 s53 s54 s55 s56 s57 s58 s59 s60 s61 s62 s63 s64 s65 s66 s67 s68 s69 s70 s71 s72 s73 s74 s75 s76 s77 s78 s79 s80 s81 s82 s83 s84 s85 s86 s87 s88 s89 s90 s91 s92 s93 s94 s95 s96 s97 s98 s99 s100 
+h1 -> h2 
+h2 -> h1 
+*** Results: 0% dropped (2/2 received)
+h1 -> h11 
+h11 -> h1 
+*** Results: 0% dropped (2/2 received)
+h1 -> h21 
+h21 -> h1 
+*** Results: 0% dropped (2/2 received)
+h1 -> h41 
+h41 -> h1 
+*** Results: 0% dropped (2/2 received)
+h1 -> h61 
+h61 -> h1 
+*** Results: 0% dropped (2/2 received)
+h1 -> h81 
+h81 -> h1 
+*** Results: 0% dropped (2/2 received)
+h1 -> h101 
+h101 -> h1 
+*** Results: 0% dropped (2/2 received)
+*** Iperf: testing TCP bandwidth between h1 and h2
+*** Results: ['26.9 Gbits/sec', '26.9 Gbits/sec']
+*** testing Open vSwitch kernel datapath
+*** testing basic connectivity
+*** testing bandwidth
+testing h1 <-> h2 ['26.9 Gbits/sec', '26.9 Gbits/sec']
+*** Iperf: testing TCP bandwidth between h1 and h11
+*** Results: ['14.4 Gbits/sec', '14.4 Gbits/sec']
+testing h1 <-> h11 ['14.4 Gbits/sec', '14.4 Gbits/sec']
+*** Iperf: testing TCP bandwidth between h1 and h21
+*** Results: ['10.7 Gbits/sec', '10.8 Gbits/sec']
+testing h1 <-> h21 ['10.7 Gbits/sec', '10.8 Gbits/sec']
+*** Iperf: testing TCP bandwidth between h1 and h41
+*** Results: ['6.34 Gbits/sec', '6.35 Gbits/sec']
+testing h1 <-> h41 ['6.34 Gbits/sec', '6.35 Gbits/sec']
+*** Iperf: testing TCP bandwidth between h1 and h61
+*** Results: ['4.14 Gbits/sec', '4.14 Gbits/sec']
+testing h1 <-> h61 ['4.14 Gbits/sec', '4.14 Gbits/sec']
+*** Iperf: testing TCP bandwidth between h1 and h81
+*** Results: ['3.11 Gbits/sec', '3.11 Gbits/sec']
+testing h1 <-> h81 ['3.11 Gbits/sec', '3.11 Gbits/sec']
+*** Iperf: testing TCP bandwidth between h1 and h101
+*** Results: ['1.99 Gbits/sec', '1.99 Gbits/sec']
+testing h1 <-> h101 ['1.99 Gbits/sec', '1.99 Gbits/sec']
+*** Stopping 100 switches
+s1 ...s2 ...s3 ...s4 ...s5 ...s6 ...s7 ...s8 ...s9 ...s10 ...s11 ...s12 ...s13 ...s14 ...s15 ...s16 ...s17 ...s18 ...s19 ...s20 ...s21 ...s22 ...s23 ...s24 ...s25 ...s26 ...s27 ...s28 ...s29 ...s30 ...s31 ...s32 ...s33 ...s34 ...s35 ...s36 ...s37 ...s38 ...s39 ...s40 ...s41 ...s42 ...s43 ...s44 ...s45 ...s46 ...s47 ...s48 ...s49 ...s50 ...s51 ...s52 ...s53 ...s54 ...s55 ...s56 ...s57 ...s58 ...s59 ...s60 ...s61 ...s62 ...s63 ...s64 ...s65 ...s66 ...s67 ...s68 ...s69 ...s70 ...s71 ...s72 ...s73 ...s74 ...s75 ...s76 ...s77 ...s78 ...s79 ...s80 ...s81 ...s82 ...s83 ...s84 ...s85 ...s86 ...s87 ...s88 ...s89 ...s90 ...s91 ...s92 ...s93 ...s94 ...s95 ...s96 ...s97 ...s98 ...s99 ...s100 ..
+*** Stopping 101 hosts
+h1 h2 h3 h4 h5 h6 h7 h8 h9 h10 h11 h12 h13 h14 h15 h16 h17 h18 h19 h20 h21 h22 h23 h24 h25 h26 h27 h28 h29 h30 h31 h32 h33 h34 h35 h36 h37 h38 h39 h40 h41 h42 h43 h44 h45 h46 h47 h48 h49 h50 h51 h52 h53 h54 h55 h56 h57 h58 h59 h60 h61 h62 h63 h64 h65 h66 h67 h68 h69 h70 h71 h72 h73 h74 h75 h76 h77 h78 h79 h80 h81 h82 h83 h84 h85 h86 h87 h88 h89 h90 h91 h92 h93 h94 h95 h96 h97 h98 h99 h100 h101 
+*** Stopping 1 controllers
+c0 
+*** Done
+
+*** Linear network results for reference user datapath:
+
+SwitchCount	iperf Results
+1 		1.35 Mbits/sec server,  1.44 Mbits/sec client
+10 		1.08 Mbits/sec server,  1.15 Mbits/sec client
+20 		395 Kbits/sec server,  419 Kbits/sec client
+40 		367 Kbits/sec server,  369 Kbits/sec client
+60 		347 Kbits/sec server,  352 Kbits/sec client
+80 		328 Kbits/sec server,  334 Kbits/sec client
+100 		309 Kbits/sec server,  316 Kbits/sec client
+
+
+*** Linear network results for Open vSwitch kernel datapath:
+
+SwitchCount	iperf Results
+1 		26.9 Gbits/sec server,  26.9 Gbits/sec client
+10 		14.4 Gbits/sec server,  14.4 Gbits/sec client
+20 		10.7 Gbits/sec server,  10.8 Gbits/sec client
+40 		6.34 Gbits/sec server,  6.35 Gbits/sec client
+60 		4.14 Gbits/sec server,  4.14 Gbits/sec client
+80 		3.11 Gbits/sec server,  3.11 Gbits/sec client
+100 		1.99 Gbits/sec server,  1.99 Gbits/sec client
+
+
