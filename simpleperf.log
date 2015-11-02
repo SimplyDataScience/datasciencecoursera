@@ -1,0 +1,35 @@
+*** Creating network
+*** Adding controller
+*** Adding hosts:
+h1 h2 h3 h4 
+*** Adding switches:
+s1 
+*** Adding links:
+(10.00Mbit 5ms delay 10% loss) (10.00Mbit 5ms delay 10% loss) (h1, s1) (10.00Mbit 5ms delay 10% loss) (10.00Mbit 5ms delay 10% loss) (h2, s1) (10.00Mbit 5ms delay 10% loss) (10.00Mbit 5ms delay 10% loss) (h3, s1) (10.00Mbit 5ms delay 10% loss) (10.00Mbit 5ms delay 10% loss) (h4, s1) 
+*** Configuring hosts
+h1 (cfs 12500/100000us) h2 (cfs 12500/100000us) h3 (cfs 12500/100000us) h4 (cfs 12500/100000us) 
+*** Starting controller
+*** Starting 1 switches
+s1 (10.00Mbit 5ms delay 10% loss) (10.00Mbit 5ms delay 10% loss) (10.00Mbit 5ms delay 10% loss) (10.00Mbit 5ms delay 10% loss) 
+h1 h1-eth0:s1-eth1
+h2 h2-eth0:s1-eth2
+h3 h3-eth0:s1-eth3
+h4 h4-eth0:s1-eth4
+*** Ping: testing ping reachability
+h1 -> h2 h3 h4 
+h2 -> X X h4 
+h3 -> h1 h2 h4 
+h4 -> h1 h2 h3 
+*** Results: 16% dropped (10/12 received)
+*** Iperf: testing TCP bandwidth between h1 and h4
+*** Results: ['182 Kbits/sec', '221 Kbits/sec']
+*** Stopping 1 switches
+s1 ....
+*** Stopping 4 hosts
+h1 h2 h3 h4 
+*** Stopping 1 controllers
+c0 
+*** Done
+Dumping host connections
+Testing network connectivity
+Testing bandwidth between h1 and h4

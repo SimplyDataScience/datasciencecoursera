@@ -1,0 +1,70 @@
+*** Creating network
+*** Adding controller
+*** Adding hosts:
+h1 h2 h3 h4 h5 
+*** Adding switches:
+s1 
+*** Adding links:
+(h1, s1) (h2, s1) (h3, s1) (h4, s1) (h5, s1) 
+*** Configuring hosts
+h1 (cfs 10000/100000us) h2 (cfs 10000/100000us) h3 (cfs 10000/100000us) h4 (cfs 10000/100000us) h5 (cfs 10000/100000us) 
+*** Starting controller
+*** Starting 1 switches
+s1 
+*** Stopping 1 switches
+s1 .....
+*** Stopping 5 hosts
+h1 h2 h3 h4 h5 
+*** Stopping 1 controllers
+c0 
+*** Done
+<h2>: PING 10.0.0.1 (10.0.0.1) 56(84) bytes of data.
+<h1>: PING 10.0.0.5 (10.0.0.5) 56(84) bytes of data.
+<h3>: PING 10.0.0.2 (10.0.0.2) 56(84) bytes of data.
+<h4>: PING 10.0.0.3 (10.0.0.3) 56(84) bytes of data.
+<h2>: 64 bytes from 10.0.0.1: icmp_seq=1 ttl=64 time=1.47 ms
+<h1>: 64 bytes from 10.0.0.5: icmp_seq=1 ttl=64 time=1.59 ms
+<h3>: 64 bytes from 10.0.0.2: icmp_seq=1 ttl=64 time=2.37 ms
+<h4>: 64 bytes from 10.0.0.3: icmp_seq=1 ttl=64 time=1.60 ms
+<h5>: PING 10.0.0.4 (10.0.0.4) 56(84) bytes of data.
+<h5>: 64 bytes from 10.0.0.4: icmp_seq=1 ttl=64 time=1.40 ms
+<h1>: 64 bytes from 10.0.0.5: icmp_seq=2 ttl=64 time=0.200 ms
+<h2>: 64 bytes from 10.0.0.1: icmp_seq=2 ttl=64 time=0.181 ms
+<h3>: 64 bytes from 10.0.0.2: icmp_seq=2 ttl=64 time=0.181 ms
+<h4>: 64 bytes from 10.0.0.3: icmp_seq=2 ttl=64 time=0.179 ms
+<h5>: 64 bytes from 10.0.0.4: icmp_seq=2 ttl=64 time=0.180 ms
+<h1>: 64 bytes from 10.0.0.5: icmp_seq=3 ttl=64 time=0.021 ms
+<h2>: 64 bytes from 10.0.0.1: icmp_seq=3 ttl=64 time=0.016 ms
+<h3>: 64 bytes from 10.0.0.2: icmp_seq=3 ttl=64 time=0.016 ms
+<h4>: 64 bytes from 10.0.0.3: icmp_seq=3 ttl=64 time=0.016 ms
+<h5>: 64 bytes from 10.0.0.4: icmp_seq=3 ttl=64 time=0.014 ms
+<h1>: 64 bytes from 10.0.0.5: icmp_seq=4 ttl=64 time=0.029 ms
+<h2>: 64 bytes from 10.0.0.1: icmp_seq=4 ttl=64 time=0.016 ms
+<h3>: 64 bytes from 10.0.0.2: icmp_seq=4 ttl=64 time=0.016 ms
+<h4>: 64 bytes from 10.0.0.3: icmp_seq=4 ttl=64 time=0.016 ms
+<h5>: 64 bytes from 10.0.0.4: icmp_seq=4 ttl=64 time=0.013 ms
+<h1>: 64 bytes from 10.0.0.5: icmp_seq=5 ttl=64 time=0.031 ms
+<h1>: 
+<h1>: --- 10.0.0.5 ping statistics ---
+<h1>: 5 packets transmitted, 5 received, 0% packet loss, time 4000ms
+<h1>: rtt min/avg/max/mdev = 0.021/0.375/1.596/0.614 ms
+<h2>: 64 bytes from 10.0.0.1: icmp_seq=5 ttl=64 time=0.017 ms
+<h2>: 
+<h2>: --- 10.0.0.1 ping statistics ---
+<h2>: 5 packets transmitted, 5 received, 0% packet loss, time 4001ms
+<h2>: rtt min/avg/max/mdev = 0.016/0.341/1.475/0.570 ms
+<h3>: 64 bytes from 10.0.0.2: icmp_seq=5 ttl=64 time=0.016 ms
+<h3>: 
+<h3>: --- 10.0.0.2 ping statistics ---
+<h3>: 5 packets transmitted, 5 received, 0% packet loss, time 4001ms
+<h3>: rtt min/avg/max/mdev = 0.016/0.520/2.372/0.928 ms
+<h4>: 64 bytes from 10.0.0.3: icmp_seq=5 ttl=64 time=0.016 ms
+<h4>: 
+<h4>: --- 10.0.0.3 ping statistics ---
+<h4>: 5 packets transmitted, 5 received, 0% packet loss, time 4000ms
+<h4>: rtt min/avg/max/mdev = 0.016/0.367/1.609/0.624 ms
+<h5>: 64 bytes from 10.0.0.4: icmp_seq=5 ttl=64 time=0.014 ms
+<h5>: 
+<h5>: --- 10.0.0.4 ping statistics ---
+<h5>: 5 packets transmitted, 5 received, 0% packet loss, time 4001ms
+<h5>: rtt min/avg/max/mdev = 0.013/0.325/1.407/0.544 ms
