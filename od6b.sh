@@ -1,0 +1,2 @@
+#!/bin/bash
+curl --user "admin":"admin" -H "Accept: application/json" -H "Content-type: application/json" -X PUT http://192.168.56.103:8080/one/nb/v2/lb/default/update/vip -d '{"name":"VIP-RR","poolname":"PoolRR"}'

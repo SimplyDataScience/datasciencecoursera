@@ -1,0 +1,2 @@
+#!/bin/bash
+curl --user "admin":"admin" -H "Accept: application/json" -H "Content-type: application/json" -X POST http://192.168.56.103:8080/one/nb/v2/lb/default/create/poolmember -d '{"name":"PM2","ip":"10.0.0.2","poolname":"PoolRR"}'
