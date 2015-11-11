@@ -1,0 +1,154 @@
+POX 0.2.0 (carp) / Copyright 2011-2013 James McCauley, et al.
+[[1m[1;36msamples.spanning_tree [0m] [1mUsing forwarding: pox.forwarding.l2_learning[22m
+[[1m[1;36mcore                  [0m] [1mPOX 0.2.0 (carp) going up...[22m
+[[1m[1;36mcore                  [0m] [1mRunning on CPython (2.7.6/Mar 22 2014 22:59:56)[22m
+[[1m[1;36mcore                  [0m] [1mPlatform is Linux-3.13.0-24-generic-x86_64-with-Ubuntu-14.04-trusty[22m
+[[1m[1;32mcore                  [0m] [1mPOX 0.2.0 (carp) is up.[22m
+[[1m[1;36mopenflow.of_01        [0m] [1mListening on 0.0.0.0:6633[22m
+[[1m[1;32mopenflow.of_01        [0m] [1m[00-00-00-00-00-05 1] connected[22m
+[[1m[1;36mopenflow.discovery    [0m] [1mInstalling flow for 00-00-00-00-00-05[22m
+[[1m[1;36mforwarding.l2_learning[0m] [1mConnection [00-00-00-00-00-05 1][22m
+[[1m[1;32mopenflow.of_01        [0m] [1m[00-00-00-00-00-03 3] connected[22m
+[[1m[1;36mopenflow.discovery    [0m] [1mInstalling flow for 00-00-00-00-00-03[22m
+[[1m[1;36mforwarding.l2_learning[0m] [1mConnection [00-00-00-00-00-03 3][22m
+[[1m[1;32mopenflow.of_01        [0m] [1m[00-00-00-00-00-06 4] connected[22m
+[[1m[1;36mopenflow.discovery    [0m] [1mInstalling flow for 00-00-00-00-00-06[22m
+[[1m[1;36mforwarding.l2_learning[0m] [1mConnection [00-00-00-00-00-06 4][22m
+[[1m[1;32mopenflow.of_01        [0m] [1m[00-00-00-00-00-04 2] connected[22m
+[[1m[1;36mopenflow.discovery    [0m] [1mInstalling flow for 00-00-00-00-00-04[22m
+[[1m[1;36mforwarding.l2_learning[0m] [1mConnection [00-00-00-00-00-04 2][22m
+[[1m[1;32mopenflow.discovery    [0m] [1mlink detected: 00-00-00-00-00-05.1 -> 00-00-00-00-00-03.3[22m
+[[1m[1;32mopenflow.discovery    [0m] [1mlink detected: 00-00-00-00-00-05.2 -> 00-00-00-00-00-04.3[22m
+[[1m[1;32mopenflow.discovery    [0m] [1mlink detected: 00-00-00-00-00-03.3 -> 00-00-00-00-00-05.1[22m
+[[1m[1;32mopenflow.spanning_tree[0m] [1m7 ports changed[22m
+[[1m[1;32mopenflow.discovery    [0m] [1mlink detected: 00-00-00-00-00-03.4 -> 00-00-00-00-00-06.1[22m
+[[1m[1;32mopenflow.spanning_tree[0m] [1m1 ports changed[22m
+[[1m[1;32mopenflow.discovery    [0m] [1mlink detected: 00-00-00-00-00-03.2 -> 00-00-00-00-00-04.1[22m
+[[1m[1;32mopenflow.spanning_tree[0m] [1m1 ports changed[22m
+[[1m[1;32mopenflow.discovery    [0m] [1mlink detected: 00-00-00-00-00-06.1 -> 00-00-00-00-00-03.4[22m
+[[1m[1;32mopenflow.spanning_tree[0m] [1m4 ports changed[22m
+[[1m[1;32mopenflow.discovery    [0m] [1mlink detected: 00-00-00-00-00-06.2 -> 00-00-00-00-00-04.4[22m
+[[1m[1;32mopenflow.spanning_tree[0m] [1m1 ports changed[22m
+[[1m[1;32mopenflow.discovery    [0m] [1mlink detected: 00-00-00-00-00-04.3 -> 00-00-00-00-00-05.2[22m
+[[1m[1;32mopenflow.spanning_tree[0m] [1m5 ports changed[22m
+[[1m[1;32mopenflow.discovery    [0m] [1mlink detected: 00-00-00-00-00-04.1 -> 00-00-00-00-00-03.2[22m
+[[1m[1;32mopenflow.discovery    [0m] [1mlink detected: 00-00-00-00-00-04.4 -> 00-00-00-00-00-06.2[22m
+[[1m[1;36mforwarding.l2_learning[0m] [1minstalling flow for 0a:16:7d:40:14:a6.2 -> f6:14:1d:99:e4:e1.3[22m
+[[1m[1;36mforwarding.l2_learning[0m] [1minstalling flow for 0a:16:7d:40:14:a6.2 -> f6:14:1d:99:e4:e1.1[22m
+[[1m[1;36mforwarding.l2_learning[0m] [1minstalling flow for 0a:16:7d:40:14:a6.3 -> f6:14:1d:99:e4:e1.1[22m
+[[1m[1;36mforwarding.l2_learning[0m] [1minstalling flow for f6:14:1d:99:e4:e1.1 -> 0a:16:7d:40:14:a6.3[22m
+[[1m[1;36mforwarding.l2_learning[0m] [1minstalling flow for f6:14:1d:99:e4:e1.1 -> 0a:16:7d:40:14:a6.2[22m
+[[1m[1;36mforwarding.l2_learning[0m] [1minstalling flow for f6:14:1d:99:e4:e1.3 -> 0a:16:7d:40:14:a6.2[22m
+[[1m[1;36mforwarding.l2_learning[0m] [1minstalling flow for 0a:16:7d:40:14:a6.2 -> f6:14:1d:99:e4:e1.3[22m
+[[1m[1;36mforwarding.l2_learning[0m] [1minstalling flow for 0a:16:7d:40:14:a6.2 -> f6:14:1d:99:e4:e1.1[22m
+[[1m[1;36mforwarding.l2_learning[0m] [1minstalling flow for 0a:16:7d:40:14:a6.3 -> f6:14:1d:99:e4:e1.1[22m
+[[1m[1;36mforwarding.l2_learning[0m] [1minstalling flow for d6:c9:28:f2:ff:d7.3 -> f6:14:1d:99:e4:e1.1[22m
+[[1m[1;36mforwarding.l2_learning[0m] [1minstalling flow for d6:c9:28:f2:ff:d7.3 -> f6:14:1d:99:e4:e1.1[22m
+[[1m[1;36mforwarding.l2_learning[0m] [1minstalling flow for f6:14:1d:99:e4:e1.1 -> d6:c9:28:f2:ff:d7.3[22m
+[[1m[1;36mforwarding.l2_learning[0m] [1minstalling flow for f6:14:1d:99:e4:e1.1 -> d6:c9:28:f2:ff:d7.3[22m
+[[1m[1;36mforwarding.l2_learning[0m] [1minstalling flow for d6:c9:28:f2:ff:d7.3 -> f6:14:1d:99:e4:e1.1[22m
+[[1m[1;36mforwarding.l2_learning[0m] [1minstalling flow for d6:c9:28:f2:ff:d7.3 -> f6:14:1d:99:e4:e1.1[22m
+[[1m[1;36mforwarding.l2_learning[0m] [1minstalling flow for 0a:85:b1:89:e7:6a.3 -> f6:14:1d:99:e4:e1.1[22m
+[[1m[1;36mforwarding.l2_learning[0m] [1minstalling flow for 0a:85:b1:89:e7:6a.4 -> f6:14:1d:99:e4:e1.1[22m
+[[1m[1;36mforwarding.l2_learning[0m] [1minstalling flow for f6:14:1d:99:e4:e1.1 -> 0a:85:b1:89:e7:6a.4[22m
+[[1m[1;36mforwarding.l2_learning[0m] [1minstalling flow for f6:14:1d:99:e4:e1.1 -> 0a:85:b1:89:e7:6a.3[22m
+[[1m[1;36mforwarding.l2_learning[0m] [1minstalling flow for 0a:85:b1:89:e7:6a.3 -> f6:14:1d:99:e4:e1.1[22m
+[[1m[1;36mforwarding.l2_learning[0m] [1minstalling flow for 0a:85:b1:89:e7:6a.4 -> f6:14:1d:99:e4:e1.1[22m
+[[1m[1;36mforwarding.l2_learning[0m] [1minstalling flow for 0a:16:7d:40:14:a6.2 -> f6:14:1d:99:e4:e1.3[22m
+[[1m[1;36mforwarding.l2_learning[0m] [1minstalling flow for 0a:16:7d:40:14:a6.2 -> f6:14:1d:99:e4:e1.1[22m
+[[1m[1;36mforwarding.l2_learning[0m] [1minstalling flow for 0a:16:7d:40:14:a6.3 -> f6:14:1d:99:e4:e1.1[22m
+[[1m[1;36mforwarding.l2_learning[0m] [1minstalling flow for f6:14:1d:99:e4:e1.1 -> 0a:16:7d:40:14:a6.3[22m
+[[1m[1;36mforwarding.l2_learning[0m] [1minstalling flow for f6:14:1d:99:e4:e1.1 -> 0a:16:7d:40:14:a6.2[22m
+[[1m[1;36mforwarding.l2_learning[0m] [1minstalling flow for f6:14:1d:99:e4:e1.3 -> 0a:16:7d:40:14:a6.2[22m
+[[1m[1;36mforwarding.l2_learning[0m] [1minstalling flow for d6:c9:28:f2:ff:d7.3 -> 0a:16:7d:40:14:a6.2[22m
+[[1m[1;36mforwarding.l2_learning[0m] [1minstalling flow for d6:c9:28:f2:ff:d7.3 -> 0a:16:7d:40:14:a6.2[22m
+[[1m[1;36mforwarding.l2_learning[0m] [1minstalling flow for 0a:16:7d:40:14:a6.2 -> d6:c9:28:f2:ff:d7.3[22m
+[[1m[1;36mforwarding.l2_learning[0m] [1minstalling flow for 0a:16:7d:40:14:a6.2 -> d6:c9:28:f2:ff:d7.3[22m
+[[1m[1;36mforwarding.l2_learning[0m] [1minstalling flow for d6:c9:28:f2:ff:d7.3 -> 0a:16:7d:40:14:a6.2[22m
+[[1m[1;36mforwarding.l2_learning[0m] [1minstalling flow for d6:c9:28:f2:ff:d7.3 -> 0a:16:7d:40:14:a6.2[22m
+[[1m[1;36mforwarding.l2_learning[0m] [1minstalling flow for 0a:85:b1:89:e7:6a.3 -> 0a:16:7d:40:14:a6.1[22m
+[[1m[1;36mforwarding.l2_learning[0m] [1minstalling flow for 0a:85:b1:89:e7:6a.4 -> 0a:16:7d:40:14:a6.3[22m
+[[1m[1;36mforwarding.l2_learning[0m] [1minstalling flow for 0a:85:b1:89:e7:6a.1 -> 0a:16:7d:40:14:a6.2[22m
+[[1m[1;36mforwarding.l2_learning[0m] [1minstalling flow for 0a:85:b1:89:e7:6a.3 -> 0a:16:7d:40:14:a6.2[22m
+[[1m[1;36mforwarding.l2_learning[0m] [1minstalling flow for 0a:16:7d:40:14:a6.2 -> 0a:85:b1:89:e7:6a.3[22m
+[[1m[1;36mforwarding.l2_learning[0m] [1minstalling flow for 0a:16:7d:40:14:a6.2 -> 0a:85:b1:89:e7:6a.1[22m
+[[1m[1;36mforwarding.l2_learning[0m] [1minstalling flow for 0a:16:7d:40:14:a6.3 -> 0a:85:b1:89:e7:6a.4[22m
+[[1m[1;36mforwarding.l2_learning[0m] [1minstalling flow for 0a:16:7d:40:14:a6.1 -> 0a:85:b1:89:e7:6a.3[22m
+[[1m[1;36mforwarding.l2_learning[0m] [1minstalling flow for 0a:85:b1:89:e7:6a.3 -> 0a:16:7d:40:14:a6.1[22m
+[[1m[1;36mforwarding.l2_learning[0m] [1minstalling flow for 0a:85:b1:89:e7:6a.4 -> 0a:16:7d:40:14:a6.3[22m
+[[1m[1;36mforwarding.l2_learning[0m] [1minstalling flow for 0a:85:b1:89:e7:6a.1 -> 0a:16:7d:40:14:a6.2[22m
+[[1m[1;36mforwarding.l2_learning[0m] [1minstalling flow for 0a:85:b1:89:e7:6a.3 -> 0a:16:7d:40:14:a6.2[22m
+[[1m[1;36mforwarding.l2_learning[0m] [1minstalling flow for d6:c9:28:f2:ff:d7.3 -> f6:14:1d:99:e4:e1.1[22m
+[[1m[1;36mforwarding.l2_learning[0m] [1minstalling flow for d6:c9:28:f2:ff:d7.3 -> f6:14:1d:99:e4:e1.1[22m
+[[1m[1;36mforwarding.l2_learning[0m] [1minstalling flow for f6:14:1d:99:e4:e1.1 -> d6:c9:28:f2:ff:d7.3[22m
+[[1m[1;36mforwarding.l2_learning[0m] [1minstalling flow for f6:14:1d:99:e4:e1.1 -> d6:c9:28:f2:ff:d7.3[22m
+[[1m[1;36mforwarding.l2_learning[0m] [1minstalling flow for d6:c9:28:f2:ff:d7.3 -> 0a:16:7d:40:14:a6.2[22m
+[[1m[1;36mforwarding.l2_learning[0m] [1minstalling flow for d6:c9:28:f2:ff:d7.3 -> 0a:16:7d:40:14:a6.2[22m
+[[1m[1;36mforwarding.l2_learning[0m] [1minstalling flow for 0a:16:7d:40:14:a6.2 -> d6:c9:28:f2:ff:d7.3[22m
+[[1m[1;36mforwarding.l2_learning[0m] [1minstalling flow for 0a:16:7d:40:14:a6.2 -> d6:c9:28:f2:ff:d7.3[22m
+[[1m[1;36mforwarding.l2_learning[0m] [1minstalling flow for 0a:85:b1:89:e7:6a.3 -> d6:c9:28:f2:ff:d7.1[22m
+[[1m[1;36mforwarding.l2_learning[0m] [1minstalling flow for 0a:85:b1:89:e7:6a.4 -> d6:c9:28:f2:ff:d7.3[22m
+[[1m[1;36mforwarding.l2_learning[0m] [1minstalling flow for 0a:85:b1:89:e7:6a.1 -> d6:c9:28:f2:ff:d7.3[22m
+[[1m[1;36mforwarding.l2_learning[0m] [1minstalling flow for d6:c9:28:f2:ff:d7.3 -> 0a:85:b1:89:e7:6a.1[22m
+[[1m[1;36mforwarding.l2_learning[0m] [1minstalling flow for d6:c9:28:f2:ff:d7.3 -> 0a:85:b1:89:e7:6a.4[22m
+[[1m[1;36mforwarding.l2_learning[0m] [1minstalling flow for d6:c9:28:f2:ff:d7.1 -> 0a:85:b1:89:e7:6a.3[22m
+[[1m[1;36mforwarding.l2_learning[0m] [1minstalling flow for 0a:85:b1:89:e7:6a.3 -> d6:c9:28:f2:ff:d7.1[22m
+[[1m[1;36mforwarding.l2_learning[0m] [1minstalling flow for 0a:85:b1:89:e7:6a.4 -> d6:c9:28:f2:ff:d7.3[22m
+[[1m[1;36mforwarding.l2_learning[0m] [1minstalling flow for 0a:85:b1:89:e7:6a.1 -> d6:c9:28:f2:ff:d7.3[22m
+[[1m[1;36mforwarding.l2_learning[0m] [1minstalling flow for 0a:85:b1:89:e7:6a.3 -> f6:14:1d:99:e4:e1.1[22m
+[[1m[1;36mforwarding.l2_learning[0m] [1minstalling flow for 0a:85:b1:89:e7:6a.4 -> f6:14:1d:99:e4:e1.1[22m
+[[1m[1;36mforwarding.l2_learning[0m] [1minstalling flow for f6:14:1d:99:e4:e1.1 -> 0a:85:b1:89:e7:6a.4[22m
+[[1m[1;36mforwarding.l2_learning[0m] [1minstalling flow for f6:14:1d:99:e4:e1.1 -> 0a:85:b1:89:e7:6a.3[22m
+[[1m[1;36mforwarding.l2_learning[0m] [1minstalling flow for 0a:85:b1:89:e7:6a.3 -> 0a:16:7d:40:14:a6.1[22m
+[[1m[1;36mforwarding.l2_learning[0m] [1minstalling flow for 0a:85:b1:89:e7:6a.4 -> 0a:16:7d:40:14:a6.3[22m
+[[1m[1;36mforwarding.l2_learning[0m] [1minstalling flow for 0a:85:b1:89:e7:6a.1 -> 0a:16:7d:40:14:a6.2[22m
+[[1m[1;36mforwarding.l2_learning[0m] [1minstalling flow for 0a:85:b1:89:e7:6a.3 -> 0a:16:7d:40:14:a6.2[22m
+[[1m[1;36mforwarding.l2_learning[0m] [1minstalling flow for 0a:16:7d:40:14:a6.2 -> 0a:85:b1:89:e7:6a.3[22m
+[[1m[1;36mforwarding.l2_learning[0m] [1minstalling flow for 0a:16:7d:40:14:a6.2 -> 0a:85:b1:89:e7:6a.1[22m
+[[1m[1;36mforwarding.l2_learning[0m] [1minstalling flow for 0a:16:7d:40:14:a6.3 -> 0a:85:b1:89:e7:6a.4[22m
+[[1m[1;36mforwarding.l2_learning[0m] [1minstalling flow for 0a:16:7d:40:14:a6.1 -> 0a:85:b1:89:e7:6a.3[22m
+[[1m[1;36mforwarding.l2_learning[0m] [1minstalling flow for 0a:85:b1:89:e7:6a.3 -> d6:c9:28:f2:ff:d7.1[22m
+[[1m[1;36mforwarding.l2_learning[0m] [1minstalling flow for 0a:85:b1:89:e7:6a.4 -> d6:c9:28:f2:ff:d7.3[22m
+[[1m[1;36mforwarding.l2_learning[0m] [1minstalling flow for 0a:85:b1:89:e7:6a.1 -> d6:c9:28:f2:ff:d7.3[22m
+[[1m[1;36mforwarding.l2_learning[0m] [1minstalling flow for d6:c9:28:f2:ff:d7.3 -> 0a:85:b1:89:e7:6a.1[22m
+[[1m[1;36mforwarding.l2_learning[0m] [1minstalling flow for d6:c9:28:f2:ff:d7.3 -> 0a:85:b1:89:e7:6a.4[22m
+[[1m[1;36mforwarding.l2_learning[0m] [1minstalling flow for d6:c9:28:f2:ff:d7.1 -> 0a:85:b1:89:e7:6a.3[22m
+[[1m[1;36mforwarding.l2_learning[0m] [1minstalling flow for 0a:85:b1:89:e7:6a.3 -> f6:14:1d:99:e4:e1.1[22m
+[[1m[1;36mforwarding.l2_learning[0m] [1minstalling flow for 0a:85:b1:89:e7:6a.3 -> 0a:16:7d:40:14:a6.1[22m
+[[1m[1;36mforwarding.l2_learning[0m] [1minstalling flow for 0a:16:7d:40:14:a6.2 -> f6:14:1d:99:e4:e1.3[22m
+[[1m[1;36mforwarding.l2_learning[0m] [1minstalling flow for d6:c9:28:f2:ff:d7.3 -> 0a:16:7d:40:14:a6.2[22m
+[[1m[1;36mforwarding.l2_learning[0m] [1minstalling flow for d6:c9:28:f2:ff:d7.3 -> f6:14:1d:99:e4:e1.1[22m
+[[1m[1;36mforwarding.l2_learning[0m] [1minstalling flow for 0a:16:7d:40:14:a6.2 -> f6:14:1d:99:e4:e1.1[22m
+[[1m[1;36mforwarding.l2_learning[0m] [1minstalling flow for d6:c9:28:f2:ff:d7.3 -> f6:14:1d:99:e4:e1.1[22m
+[[1m[1;36mforwarding.l2_learning[0m] [1minstalling flow for 0a:85:b1:89:e7:6a.4 -> f6:14:1d:99:e4:e1.1[22m
+[[1m[1;36mforwarding.l2_learning[0m] [1minstalling flow for 0a:85:b1:89:e7:6a.4 -> 0a:16:7d:40:14:a6.3[22m
+[[1m[1;36mforwarding.l2_learning[0m] [1minstalling flow for 0a:16:7d:40:14:a6.3 -> f6:14:1d:99:e4:e1.1[22m
+[[1m[1;36mforwarding.l2_learning[0m] [1minstalling flow for d6:c9:28:f2:ff:d7.3 -> 0a:16:7d:40:14:a6.2[22m
+[[1m[1;36mforwarding.l2_learning[0m] [1minstalling flow for 0a:85:b1:89:e7:6a.1 -> 0a:16:7d:40:14:a6.2[22m
+[[1m[1;36mforwarding.l2_learning[0m] [1minstalling flow for f6:14:1d:99:e4:e1.1 -> d6:c9:28:f2:ff:d7.3[22m
+[[1m[1;36mforwarding.l2_learning[0m] [1minstalling flow for f6:14:1d:99:e4:e1.1 -> 0a:85:b1:89:e7:6a.4[22m
+[[1m[1;36mforwarding.l2_learning[0m] [1minstalling flow for 0a:16:7d:40:14:a6.2 -> d6:c9:28:f2:ff:d7.3[22m
+[[1m[1;36mforwarding.l2_learning[0m] [1minstalling flow for 0a:85:b1:89:e7:6a.3 -> 0a:16:7d:40:14:a6.2[22m
+[[1m[1;36mforwarding.l2_learning[0m] [1minstalling flow for 0a:16:7d:40:14:a6.2 -> d6:c9:28:f2:ff:d7.3[22m
+[[1m[1;36mforwarding.l2_learning[0m] [1minstalling flow for 0a:85:b1:89:e7:6a.3 -> d6:c9:28:f2:ff:d7.1[22m
+[[1m[1;36mforwarding.l2_learning[0m] [1minstalling flow for f6:14:1d:99:e4:e1.1 -> d6:c9:28:f2:ff:d7.3[22m
+[[1m[1;36mforwarding.l2_learning[0m] [1minstalling flow for 0a:85:b1:89:e7:6a.4 -> d6:c9:28:f2:ff:d7.3[22m
+[[1m[1;36mforwarding.l2_learning[0m] [1minstalling flow for f6:14:1d:99:e4:e1.1 -> 0a:16:7d:40:14:a6.3[22m
+[[1m[1;36mforwarding.l2_learning[0m] [1minstalling flow for f6:14:1d:99:e4:e1.1 -> 0a:85:b1:89:e7:6a.3[22m
+[[1m[1;36mforwarding.l2_learning[0m] [1minstalling flow for 0a:85:b1:89:e7:6a.1 -> d6:c9:28:f2:ff:d7.3[22m
+[[1m[1;36mforwarding.l2_learning[0m] [1minstalling flow for d6:c9:28:f2:ff:d7.3 -> 0a:85:b1:89:e7:6a.1[22m
+[[1m[1;36mforwarding.l2_learning[0m] [1minstalling flow for f6:14:1d:99:e4:e1.1 -> 0a:16:7d:40:14:a6.2[22m
+[[1m[1;36mforwarding.l2_learning[0m] [1minstalling flow for d6:c9:28:f2:ff:d7.3 -> 0a:85:b1:89:e7:6a.4[22m
+[[1m[1;36mforwarding.l2_learning[0m] [1minstalling flow for f6:14:1d:99:e4:e1.3 -> 0a:16:7d:40:14:a6.2[22m
+[[1m[1;36mforwarding.l2_learning[0m] [1minstalling flow for 0a:16:7d:40:14:a6.2 -> 0a:85:b1:89:e7:6a.3[22m
+[[1m[1;36mforwarding.l2_learning[0m] [1minstalling flow for 0a:16:7d:40:14:a6.2 -> 0a:85:b1:89:e7:6a.1[22m
+[[1m[1;36mforwarding.l2_learning[0m] [1minstalling flow for d6:c9:28:f2:ff:d7.1 -> 0a:85:b1:89:e7:6a.3[22m
+[[1m[1;36mforwarding.l2_learning[0m] [1minstalling flow for 0a:16:7d:40:14:a6.3 -> 0a:85:b1:89:e7:6a.4[22m
+[[1m[1;36mforwarding.l2_learning[0m] [1minstalling flow for 0a:16:7d:40:14:a6.1 -> 0a:85:b1:89:e7:6a.3[22m
+[[1m[1;32mcore                  [0m] [1mGoing down...[22m
+[[1m[1;32mopenflow.of_01        [0m] [1m[00-00-00-00-00-03 3] disconnected[22m
+[[1m[1;32mopenflow.spanning_tree[0m] [1m3 ports changed[22m
+[[1m[1;32mopenflow.of_01        [0m] [1m[00-00-00-00-00-04 2] disconnected[22m
+[[1m[1;32mopenflow.of_01        [0m] [1m[00-00-00-00-00-05 1] disconnected[22m
+[[1m[1;32mopenflow.of_01        [0m] [1m[00-00-00-00-00-06 4] disconnected[22m
+[[1m[1;32mcore                  [0m] [1mDown.[22m
